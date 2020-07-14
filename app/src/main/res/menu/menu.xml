@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/alta"
+        android:title="Mapa"> </item>
+<!--    <item android:id="@+id/campo_buscar"-->
+<!--        android:orderInCategory="100"-->
+<!--        a:showAsAction="ifRoom"-->
+<!--        android:title="Buscar"-->
+<!--        a:actionViewClass="android.support.v7.widget.SearchView"-->
+<!--        />-->
+
+</menu>
