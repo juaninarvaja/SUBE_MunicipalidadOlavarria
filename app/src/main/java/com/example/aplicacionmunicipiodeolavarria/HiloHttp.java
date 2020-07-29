@@ -60,16 +60,6 @@ public class HiloHttp extends Thread {
                     }
                     Message message = new Message();
                     message.arg1=MainActivity.TEXTO;
-                    //message.obj = respuesta;
-                 //   List<Terminales> auxTerminales = new ArrayList<>();
-                   // JSONArray array = new JSONArray(respuesta.toString());
-                   // for(int i = 0; i<array.length(); i++){
-
-//                    JSONObject object = array.getJSONObject(i);
-//                    auxEmpresas.add(new Empresa(object.getString("nombre"),
-//                            object.getString("apellido"),object.getString("telefono"),
-//                            object.getString("img")));
-                //    }
                     message.obj = terminales;
                     this.handler.sendMessage(message);
                 }
@@ -88,12 +78,7 @@ public class HiloHttp extends Thread {
 
                 this.handler.sendMessage(message);
             }
-
-
-
         } catch (MalformedURLException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
             e.printStackTrace();
         }
 //        } catch (SAXException e) {

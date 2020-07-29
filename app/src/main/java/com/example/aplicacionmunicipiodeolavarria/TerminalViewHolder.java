@@ -31,7 +31,7 @@ public class TerminalViewHolder extends RecyclerView.ViewHolder implements View.
        // this.tvSubActividad = view.findViewById(R.id.tvSubActividad);
         this.tvDireccion = view.findViewById(R.id.tvDireccion);
         this.tvLocalidad = view.findViewById(R.id.tvLocalidad);
-        this.tvAltitudLongitud = view.findViewById(R.id.tvAltitudLongitud);
+        //this.tvAltitudLongitud = view.findViewById(R.id.tvAltitudLongitud);
         this.ivImage = view.findViewById(R.id.ivImage);
 
         itemView.setOnClickListener(this);

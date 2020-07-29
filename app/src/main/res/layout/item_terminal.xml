@@ -35,12 +35,7 @@
             android:layout_height="wrap_content"
             android:text="Av de los trabajadores 874"
             android:textAppearance="@style/TextAppearance.AppCompat.Small" />
-        <TextView
-            android:id="@+id/tvAltitudLongitud"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="-36.4324334 -60.43243"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
     </LinearLayout>
 
 </LinearLayout>

@@ -60,7 +60,7 @@ public class TerminalAdapter extends RecyclerView.Adapter<TerminalViewHolder> {
         }
 
         holder.tvDireccion.setText(e.getCalle() +" "+ e.getAlturaCalle() + " " + e.getObservacion());
-        holder.tvAltitudLongitud.setText(e.getLatitud() + " " +e.getLongitud());
+        //holder.tvAltitudLongitud.setText(e.getLatitud() + " " +e.getLongitud());
         //holder.ivImage.setImageResource(p.getByteImg());
         //holder.ivImage.setImageBitmap(BitmapFactory.decodeByteArray(p.getByteImg(),0,p.getByteImg().length));
         holder.setPosition(position);
